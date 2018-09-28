@@ -1,10 +1,11 @@
 @font-face {
-font-family: "corbel";
-src: url(fonts/corbel.ttf);
+  font-family: "corbel";
+  src: url(../fonts/corbel.ttf);
 }
 
-@font-face {  font-family: arial;
-  src: url(fonts/arial.ttf);
+@font-face {  
+  font-family: arial;
+  src: url(../fonts/arial.ttf);
 }
 
 body {

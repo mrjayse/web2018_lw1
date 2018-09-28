@@ -3,7 +3,8 @@ function checkEmail(str){
   if (!result){
     alert('Введите валидный e-mail.');
     return false;
-  }return true;
+  }
+  return true;
 }
 
 function checkPassword(pass, confrim) {
@@ -11,7 +12,7 @@ function checkPassword(pass, confrim) {
     alert('Длина пароля должна быть не менее 6-ти символов.');
     return false;
   }
-  if (pass = confrim) {
+  if (pass !== confrim) {
     alert('Введенные пароли не совпадают.');
     return false;
   }
@@ -27,17 +28,16 @@ function checkAgreementRules() {
   return true;
 }
 
-function registration();
-{
+function registration() {
   var email = document.getElementsByClassName("registration__login")[0].value;
   var pass = document.getElementsByClassName("password-block__password")[0].value;
-  varpassConfirm = document.getElementsByClassName("password-block__password-repeat")[0].value;
-  if (checkEmail(email) && checkPassword(pass, passConfirm)
-      && checkAgreementRules()) {
+  var passConfirm = document.getElementsByClassName("password-block__password-repeat")[0].value;
+  if (checkEmail(email) && checkPassword(pass, passConfirm) && checkAgreementRules()) {
     alert("Регистрация прошла успешно!");
   }
 }
 
 document.getElementsByClassName("registration")[0].onsubmit = function() {
-  Registration();
+  registration();
+  return false;
 };
