@@ -52,23 +52,23 @@ main {
   margin-top: 10px;
 }
 
-.registration__text-header {
+.registration-text-header {
   font-size: 17pt;
   margin-left: 70px;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
-.registration__text-email {
+.registration-text-email {
   margin-left: 270px;
   margin-bottom: 20px;
 }
 
-.registration__check-confirmation {
+.registration-check-confirmation {
   margin-left: 325px;
 }
 
-.registration__login {
+.registration-login {
   background: #484d56;
   border-radius: 0px;
   border-left: 0px;
@@ -83,12 +83,12 @@ main {
   width: 400px;
 }
 
-.registration__login_active:focus {
+.registration-login:focus {
   border-bottom: 3px solid #2483c6;
   outline: 0;
 }
 
-.registration__button {
+.registration-button {
   border-radius: 0px;
   border-style: solid;
   border-width: 1px;
@@ -105,7 +105,7 @@ main {
   width: 130px;
 }
 
-.registration__button_active:hover {
+.registration-button:hover {
   background: #535b63;
   border-color: #abb4bc;
   color: #fff;
@@ -121,15 +121,15 @@ main {
   border-bottom: 1px dotted #484d56;
 }
 
-.password-block__text-password {
+.password-block .text-password {
   margin-left: 190px;
 }
 
-.password-block__text-password-confirmation {
+.password-block .text-password-confirmation {
   margin-left: 77px;
 }
 
-.password-block__password {
+.password-block .password {
   background: #484d56;
   border-radius: 0px;
   border-left: 0px;
@@ -144,12 +144,12 @@ main {
   width: 400px;
 }
 
-.password-block__password_active:focus {
+.password-block .password:focus {
   border-bottom: 3px solid #2483c6;
   outline: 0;
 }
 
-.password-block {
+.password-block .{
   margin-left: 70px;
   margin-right: 70px;
   margin-bottom: 20px;
@@ -159,15 +159,15 @@ main {
   border-bottom: 1px dotted #484d56;
 }
 
-.password-block__text-password {
+.password-block .text-password {
   margin-left: 190px;
 }
 
-.password-block__text-password-confirmation {
+.password-block .text-password-confirmation {
   margin-left: 77px;
 }
 
-.password-block__password {
+.password-block .password {
   background: #484d56;
   border-radius: 0px;
   border-left: 0px;
@@ -179,14 +179,15 @@ main {
   height: 30px;
   margin-left: 10px;
   padding-left: 4px;
-  width: 400px;}
+  width: 400px;
+}
 
-.password-block__password_active:focus {
+.password-block .password:focus {
   border-bottom: 3px solid #2483c6;
   outline: 0;
 }
 
-.footerr {
+.footer {
   background: #1e2125;
   bottom: 0;
   border-width: 1px;
