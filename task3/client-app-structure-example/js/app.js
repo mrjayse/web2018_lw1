@@ -1,1 +1,0 @@
-/* this source generate automatically */

@@ -54,7 +54,7 @@ endOfFile
 ];
 
 foreach($files as $relPath => $content){
-	$filePath = $path.DIRECTORY_SEPARATOR.str_replace("/",DIRECTORY_SEPARATOR,$relPath);
+	$filePath = $path.DIRECTORY_SEPARATOR.str_replace("/", DIRECTORY_SEPARATOR, $relPath);
 	if(!file_exists($filePath)){
 		mkdir(dirname($filePath), 0777, true);
 		file_put_contents($filePath, $content);

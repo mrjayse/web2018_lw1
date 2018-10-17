@@ -1,7 +1,7 @@
 function checkEmail(str) {
   var result = str.match(/^[0-9a-z-\.]+\@[0-9a-z-]{1,}\.[a-z]{2,}$/i);
   if (!result) {
-    alert('Введите валидный e-mail.');
+    alert("Введите валидный e-mail.");
     return false;
   }
   return true;
@@ -9,11 +9,11 @@ function checkEmail(str) {
 
 function checkPassword(pass, confrim) {
   if (pass.length < 6) {
-    alert('Длина пароля должна быть не менее 6-ти символов.');
+    alert("Длина пароля должна быть не менее 6-ти символов.");
     return false;
   }
   if (pass !== confrim) {
-    alert('Введенные пароли не совпадают.');
+    alert("Введенные пароли не совпадают.");
     return false;
   }
   return true;
